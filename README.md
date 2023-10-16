@@ -5,24 +5,23 @@ Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisc
 Begin reading `instructions.md` to get started.
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to predict the price of rentals. Part of what this included was going through the process of creating a repository, exploring the raw data, cleaning our data, and creating a linear regression. This put into practice the use of material from class, documentation, and asking questions to navigate the lab. The impact of this work in the context of the rental market is being able to fairly price properties base on factors of the respective location. This is relevant as rental properties become the predominant way of people affording housing.
 
 ### Methods Used
 * Inferential Statistics
 * Machine Learning
 * Data Visualization
 * Predictive Modeling
-* etc.
+* Linear Regression Model
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Sklearn
+* Seaborn
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+* The data used for this analysis comes from the data analytics consulting firm called **NotGPT**, from an in house dataset.
+* The question that was being explored, was how much should the company charge for their rental properties by doing an analysis of the housing market.
+* To analyze the dataset we cleaned, we performed a linear regression. From this analysis we derived two key metrics, the R-squared and Mean Squared Error (MSE). The R-squared told us that there is some variance in the unit price (r^2 = 0.447). Meaning that 44.7% of the unit price could be predicted with the linear regression model performed. However, our MSE was 90.262, indicating that the predications are not the most accurate. 
+* The challenge at hand is that the data does not allow for the most accurate predictions of prices for the rental properties that the company acquired. This might require looking at collecting a different set of data to improve the accuracy of these predictions. 
